@@ -1729,12 +1729,12 @@ _initialize_config_files() {
     "servers": [
       {
         "tag": "dns-cloudflare",
-        "address": "https://1.1.1.1/dns-query",
+        "address": "tls://1.1.1.1",
         "detour": "direct"
       },
       {
-        "tag": "dns-aliyun",
-        "address": "https://223.5.5.5/dns-query",
+        "tag": "dns-google",
+        "address": "tls://8.8.8.8",
         "detour": "direct"
       }
     ],
