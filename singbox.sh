@@ -1729,13 +1729,13 @@ _initialize_config_files() {
     "servers": [
       {
         "tag": "dns-cloudflare",
-        "address": "tls://1.1.1.1",
-        "detour": "direct"
+        "type": "tls",
+        "server": "1.1.1.1"
       },
       {
         "tag": "dns-google",
-        "address": "tls://8.8.8.8",
-        "detour": "direct"
+        "type": "tls",
+        "server": "8.8.8.8"
       }
     ],
     "rules": [
